@@ -8,6 +8,8 @@
     $controller = $_GET['controller'] ?? $_POST['controller'];
     $funcao = $_GET['funcao'] ?? $_POST['funcao'];
 
-    require_once "Controllers/$controller.php";
-   
-?>
+    if($controller && $funcao){
+        require_once "Controllers/$controller.php";
+    }else{
+        echo "<h1>Forum - Pagina Inicial</h1>";
+    }

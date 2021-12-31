@@ -10,15 +10,15 @@
         }
 
         public static function Conectar(){
-            // $host = 'sql200.epizy.com';
-            // $bd = 'epiz_28384599_forum';
-            // $senha = 'yWj5C42ztg8m7c';
-            // $user = 'epiz_28384599';
+            $host = 'sql112.epizy.com';
+            $bd = 'epiz_30698652_forum';
+            $senha = 'G4ZwG8c6SOMg';
+            $user = 'epiz_30698652';
             
-            $host = 'localhost';
-            $bd = 'forum';
-            $senha = '';
-            $user = 'root';
+            // $host = 'localhost';
+            // $bd = 'forum';
+            // $senha = '';
+            // $user = 'root';
             
             if(!isset(self::$BD)){
                 self::$BD = new \PDO("mysql:dbname=$bd;host=$host",$user,$senha);
@@ -32,4 +32,3 @@
     }
 
     Model::Conectar();
-?>

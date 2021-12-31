@@ -9,7 +9,7 @@ $controller = $_GET['controller'] ?? $_POST['controller'];
 $funcao = $_GET['funcao'] ?? $_POST['funcao'];
 
 if ($controller || $funcao) {
-    require_once "/app/Controllers/$controller.php";
+    require_once "Controllers/$controller.php";
 } else {
     echo "Forum - Pagina Inicial";
 }

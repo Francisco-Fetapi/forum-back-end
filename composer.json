@@ -1,0 +1,16 @@
+{
+    "name": "fetapi/forum",
+    "description": "Um lugar onde pessoas podem interagir",
+    "autoload": {
+        "psr-4": {
+            "Fetapi\\Forum\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Francisco Fetapi",
+            "email": "franciscofetapi10@gmail.com"
+        }
+    ],
+    "require": {}
+}

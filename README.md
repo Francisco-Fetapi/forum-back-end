@@ -1,5 +1,12 @@
 # Forum - back-end
-🚀 _Criado para fins de estudo_
+<p align="center">
+<a href="https://github.com/Francisco-Fetapi/forum-back-end/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/Francisco-Fetapi/forum-back-end?style=plastic"></a>
+<a href="https://github.com/Francisco-Fetapi/forum-back-end"><img alt="GitHub license" src="https://img.shields.io/badge/Exercise-For%20trainning-orange"></a>
+<a href="https://github.com/Francisco-Fetapi/forum-back-end/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/Francisco-Fetapi/forum-back-end?style=plastic"></a>
+<a href="https://github.com/Francisco-Fetapi/forum-back-end/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/Francisco-Fetapi/forum-back-end?style=plastic"></a>
+<a href="https://github.com/Francisco-Fetapi/forum-back-end"><img alt="GitHub license" src="https://img.shields.io/github/license/Francisco-Fetapi/forum-back-end?style=plastic"></a>
+</p>
+
 
 Depois de aprender o `React`, bem no começo de 2021, tive a ideia de criar um projeto juntamente com `PHP` já que quando entrei no mundo das **SPA's** (_Single Page Application_) eu não tinha ideia de como ia integrar o _front-end_ com _back-end_, naquela época eu sempre criava **sistemas monolíticos**, mas depois desse projeto criei a minha própria arquitetura para construção de API's (uma arquitetura suja, mas que na época era tudo de bom😅) e entendi completamente a sacada de **font-end e back-end desaclopados**.
 <br /> <br />
